@@ -1,14 +1,52 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  
+}
+
+.left-links{
+
+  width: 500px;
+  display : flex;
+  align-items: center;
+  flex: 1;
+}
+
+.left-links ul{
+  display: flex;
+  width: 200px;
+  gap: 8px;
+  padding-left: 0px;
+  margin-left: 12px;
+}
+
+.right-links{
+
+  width: 500px;
+  display : flex;
+  align-items: center;
+  justify-content:right;
+  flex:1;
+}
+
+
+.right-links ul{
+  display: flex;
+  gap: 8px;
+  margin-right: 12px;
 }
 
 .logo {
+  
   font-size: 48px;
   font-weight: 900;
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+
 }
 
 ul {
